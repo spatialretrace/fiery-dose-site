@@ -1,0 +1,60 @@
+/* FD WEBSITE FONTS */
+
+/* Primary Font - Nunito */
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+/* Secondary Font - Lato */
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+/* FD WEBSITE COLORS */
+
+:root {
+    --primary-color: #bb2649;
+    /* Primary Color - Pantone Viva Magenta */
+    --secondary-color: #3a6e62;
+    /* Secondary Color - Statue of Liberty */
+}
+
+
+body {
+    background-color: #ffcdd2;
+    margin: 0;
+}
+
+.fd-banner {
+    color: var(--primary-color, magenta);
+    font-family: 'Nunito', 'sans-serif';
+    font-weight: bold;
+    margin: 3rem 3rem;
+}
+
+.fd-banner h1 {
+    font-size: 50px;
+    margin: 0;
+}
+
+.fd-banner h4 {
+    color: #000000;
+    margin: 0;
+}
+
+.fd-body {
+    font-family: 'Lato', 'sans-serif';
+    margin: 3rem 3rem;
+    height: 60vh;
+}
+
+.fd-body h2 {
+    font-size: 80px;
+}
+
+.fd-footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 1.5rem 3rem;
+    color: #ffcdd2;
+    background-color: var(--secondary-color);
+    font-family: 'Lato', 'sans-serif';
+    font-size: 12px;
+}
