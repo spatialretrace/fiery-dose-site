@@ -36,20 +36,26 @@ body {
 .fd-banner h4 {
     color: #000000;
     margin: 0;
+    font-family: 'Lato', 'sans-serif';
 }
 
 .fd-body {
-    font-family: 'Lato', 'sans-serif';
+    font-family: 'Nunito', 'sans-serif';
     margin: 3rem 3rem;
-    height: 60vh;
+    /* height: 60vh; */
 }
 
 .fd-body h2 {
     font-size: 80px;
+    margin: 0;
+}
+
+.fd-body img {
+    width: 85vw;
 }
 
 .fd-footer {
-    position: absolute;
+    position: relative;
     bottom: 0;
     width: 100%;
     padding: 1.5rem 3rem;
