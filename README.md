@@ -1,2 +1,2 @@
-# fiery-dose-site
+# Fiery Dose Website
 Building Fiery Dose website
