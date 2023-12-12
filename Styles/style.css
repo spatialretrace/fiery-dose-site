@@ -1,13 +1,16 @@
 /* FD WEBSITE FONTS */
 
-/* Primary Font - Nunito */
+/* Primary Font - Gluten */
+@import url('https://fonts.googleapis.com/css2?family=Gluten&display=swap');
+
+/* Secondary Font - Nunito */
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 
-/* Secondary Font - Lato */
+/* Tertiary Font - Lato */
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
-/* FD WEBSITE COLORS */
 
+/* FD WEBSITE COLORS */
 :root {
     --primary-color: #bb2649;
     /* Primary Color - Pantone Viva Magenta */
@@ -17,26 +20,37 @@
 
 
 body {
-    background-color: #ffcdd2;
+    background-color: #FFF5DF;
     margin: 0;
 }
 
-.fd-banner {
+.fd-link {
+    color: #68313C;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.fd-header {
     color: var(--primary-color, magenta);
     font-family: 'Nunito', 'sans-serif';
     font-weight: bold;
     margin: 3rem 3rem;
 }
 
-.fd-banner h1 {
+#fd-logo {
+    width: 150px;
+}
+
+.fd-header h1 {
     font-size: 50px;
     margin: 0;
 }
 
-.fd-banner h4 {
+.fd-header h4 {
     color: #000000;
-    margin: 0;
-    font-family: 'Lato', 'sans-serif';
+    margin-left: 15px;
+    margin-top: -30px;
+    font-family: 'Gluten', 'cursive';
 }
 
 .fd-body {
@@ -50,7 +64,7 @@ body {
     margin: 0;
 }
 
-.fd-body img {
+#fd-banner {
     width: 85vw;
 }
 
